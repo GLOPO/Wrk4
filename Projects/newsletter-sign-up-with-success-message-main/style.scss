@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(234, 29%, 20%);
+  // padding: rem;
+}
+
+section {
+  background-color: hsl(0, 0%, 100%);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 70%;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+#picture {
+  background-image: url(./assets/images/illustration-sign-up-desktop.svg);
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-size: 30px;
+  padding-top: 2.5rem;
+  padding-bottom: 1rem;
+  color: hsl(234, 29%, 20%);
+  font-weight: 900;
+}
+
+p {
+  font-size: 12px;
+  color: hsl(235, 18%, 26%);
+  line-height: 1rem;
+  word-spacing: 1px;
+  font-weight: light;
+  padding-bottom: 1rem ;
+}
+
+.white-card {
+   padding: 0rem 1rem 2rem;
+}
+
+.check {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}

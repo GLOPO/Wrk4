@@ -1,0 +1,36 @@
+.hide {
+  /* display: none; */
+  visibility: hidden;
+}
+
+.red {
+  background-color: red;
+  font-size: 2rem;
+  text-decoration: underline;
+  color: white;
+}
+
+.blue {
+  background-color: blue;
+  font-style: italic;
+  font-size: 5rem;
+}
+
+img:hover {
+  cursor: pointer;
+}
+
+.dark {
+  background-color: black;
+  color: white;
+}
+
+.light {
+  background-color: white;
+  color: black;
+}
+
+.hide{
+  display: none;
+}
+
